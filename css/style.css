@@ -1,5 +1,5 @@
 [class*="col-"] {
-  border: solid 0.5px black;
+  border: solid 0.2px lightgrey;
 }
 
 .menu{
@@ -13,6 +13,19 @@
 .jumbotrom .logo{
   height: 180px;
   line-height: 180px;
+}
+
+main .container .row.inf{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+main .container .row.img .img{  
+  height: 150px;
+  line-height: 150px;
+  margin-bottom: 15px;
+  background-color: lightgoldenrodyellow;
 }
 
 
