@@ -2,19 +2,40 @@
   border: solid 0.2px lightgrey;
 }
 
+/* backgrouns */
 .menu{
+  color: white;
  background-color: rgb(25, 46, 85);
 }
 
-.sfondo-jumbotrom{
+.sfondo-jumbotrom,.about{
+  color: white;
   background-color: rgb(14, 122, 117);
 }
 
+footer .social{
+  color: white;
+  background-color: #3A546D;
+}
+
+footer .legal{
+  color: white;
+  background-color: #1e2b38;
+}
+
+/* menu */
+.row.menu .col-xs-8,.col-xs-4{
+  height: 40px;
+  line-height:40px;
+}
+
+/* jumbotrom */
 .jumbotrom .logo{
   height: 180px;
   line-height: 180px;
 }
 
+/* main- section-1 */
 main .container .row.inf{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -25,15 +46,37 @@ main .container .row.img .img{
   height: 150px;
   line-height: 150px;
   margin-bottom: 15px;
+  
   background-color: lightgoldenrodyellow;
 }
 
-
-
-
-
-.row.menu .col-xs-8,.col-xs-4{
-  color: white;
-  height: 40px;
-  line-height:40px;
+/* main- section-2 */
+section .row.about .col-xs-12 p{
+  padding: 20px 40px;
 }
+
+/* main- section-3 */
+section .container .row.contact{
+  padding: 20px 50px;
+}
+
+section .container .row.contact .espacio{
+  height: 120px;
+  padding-top: 10px;
+}
+
+/* footer- section-1 */
+footer .container-fluid .social {
+  padding: 30px 40px;
+}
+
+footer .container-fluid .social .row{
+  margin-bottom: 10px;
+}
+
+/* footer- section-2 */
+footer .container-fluid .legal .col-xs-12{
+  height: 80px;
+  line-height: 80px;
+}
+
