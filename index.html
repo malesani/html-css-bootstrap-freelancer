@@ -7,7 +7,7 @@
     <title>Bootstrap 101 Template</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -17,11 +17,20 @@
       <nav>
         <div class="container-fluid">
           <div class="row menu">
-            <div class="col-xs-8 col-sm-6 col-md-5 col-md-push-1">
+            <div class="col-xs-8 col-sm-5 col-sm-push-1 col-md-5 col-md-push-1">
               <p>START BOOTSTRAP</p>
             </div>
-            <div class="col-xs-4 col-sm-6 col-md-5 col-md-push-1">
-              <p class="text-right">Cadrado</p>
+            <div class="col-xs-4 visible-xs">
+              <p class="text-right">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </p>
+            </div>
+            <div class="col-sm-5 col-sm-push-1 col-md-5 col-md-push-1 hidden-xs">
+              <p class="text-right">
+                <span class="nav-r">PORTFOLIO</span>
+                <span class="nav-r">ABOUT</span>
+                <span class="nav-r">CONTACT</span>
+              </p>
             </div>
           </div>
         </div>
@@ -31,13 +40,17 @@
         <div class="container-fluid">
           <div class="row sfondo-jumbotrom">
             <div class="col-xs-12 logo text-center">
-              Logo
+              <div class="avatar">
+                <img src="img/avatar.svg" alt="avatar">
+              </div>
             </div>
             <div class="col-xs-12 titolo text-center">
-              <h3>START BOOTSTRAP</h3>
+              <h2>START BOOTSTRAP</h2>
             </div>
             <div class="col-xs-12 estrella text-center">
-              <div>estrella</div>
+              <div>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              </div>
             </div>
             <div class="col-xs-12 text-center">
               <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
@@ -51,27 +64,29 @@
       <section>
         <div class="container">
           <div class="row inf">
-            <div class="col-xs-12 text-center img"><h3>PORTFOLIO</h3></div>
-            <div class="col-xs-12 text-center img">ESTRELLA</div>
+            <div class="col-xs-12 text-center img"><h2>PORTFOLIO</h2></div>
+            <div class="col-xs-12 text-center img">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
           </div>
           <div class="row img">
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/cabin.png" alt="img">
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/cake.png" alt="img">
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/circus.png" alt="img">
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/game.png" alt="img">
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/safe.png" alt="img">
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4 img text-center">
-              IMG
+              <img src="img/submarine.png" alt="img">
             </div>
           </div>
         </div>
@@ -80,15 +95,24 @@
       <section>
         <div class="container-fluid">
           <div class="row about">
-            <div class="col-xs-12 text-center">ABOUT</div>
-            <div class="col-xs-12 text-center">Estrella</div>
-            <div class="col-xs-12 col-sm-6">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sunt ab qui officia odio impedit debitis ad perferendis est necessitatibus?</p>
+            <div class="col-xs-12 text-center">
+              <h2>ABOUT</h2>
+            </div>
+            <div class="col-xs-12 text-center">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             </div>
             <div class="col-xs-12 col-sm-6">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eum veritatis mollitia, alias porro maxime quis quod molestiae et facilis!</p>
+              <span class="sa-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod culpa accusantium repudiandae id incidunt obcaecati nam ex beatae fuga debitis? Saepe quia ipsum ipsam atque dignissimos fugit molestias nesciunt inventore.</span>
             </div>
-            <div class="col-xs-12 text-center">Download</div>
+            <div class="col-xs-12 col-sm-6">
+              <span class="sa-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non deserunt autem explicabo laboriosam temporibus vero eius provident, magni rem sapiente, tenetur fugit quos deleniti aliquid nulla! Corporis, modi eaque. Sint.</span>
+            </div>
+            <div class="col-xs-12 text-center">
+              <button type="button" class="btn btn-default navbar-btn">
+                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> StarDownload
+              </button>
+              
+            </div>
           </div>
         </div>
       </section>
@@ -96,13 +120,21 @@
       <section>
         <div class="container">
           <div class="row contact">
-            <div class="col-xs-12 text-center"><h4>CONTACT ME</h4></div>
-            <div class="col-xs-12 text-center">estrella</div>
-            <div class="col-xs-12 ">Name</div>
-            <div class="col-xs-12">Email Address</div>
-            <div class="col-xs-12">Phone Number</div>
-            <div class="col-xs-12 espacio">Message</div>
-            <div class="col-xs-12">Send</div>
+            <div class="col-xs-12 text-center"><h3>CONTACT ME</h3></div>
+            <div class="col-xs-12 text-center">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
+            <div class="col-xs-12 ">
+              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" placeholder="Phone Number">
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <div class="col-xs-12">
+              <button type="button" class="btn btn-default navbar-btn">
+                 Send
+             </button>
+            </div>
           </div>
         </div>
       </section>
@@ -113,15 +145,20 @@
         <div class="container-fluid">
           <div class="row social text-center">
             <div class="col-xs-12 col-md-4">
-              <p>Location</p>
+              <h4>Location</h4>
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="col-xs-12 col-md-4">
-              <p>AROUND THE WEB</p>
-              <p>F G T IN</p>
+              <h4>AROUND THE WEB</h4>
+              <p>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </p>
             </div>
             <div class="col-xs-12 col-md-4">
-              <p>ABOUT FREELANCER</p>
+              <h4>ABOUT FREELANCER</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam!</p>
             </div>
           </div>
@@ -131,7 +168,7 @@
       <section>
         <div class="container-fluid">
           <div class="row legal">
-            <div class="col-xs-12 text-center">Copyright Your Website 2019</div>
+            <div class="col-xs-12 text-center">Copyright <i class="fas fa-copyright"></i> Your Website 2019</div>
           </div>
         </div>
       </section>

@@ -1,7 +1,10 @@
 [class*="col-"] {
-  border: solid 0.2px lightgrey;
+
 }
 
+main .row.img .cont-img{
+  border: solid black;
+}
 /* backgrouns */
 .menu{
   color: white;
@@ -10,7 +13,7 @@
 
 .sfondo-jumbotrom,.about{
   color: white;
-  background-color: rgb(14, 122, 117);
+  background-color: #1BBC9B;
 }
 
 footer .social{
@@ -25,44 +28,79 @@ footer .legal{
 
 /* menu */
 .row.menu .col-xs-8,.col-xs-4{
-  height: 40px;
+  height: 42px;
   line-height:40px;
+}
+
+.row.menu .nav-r{
+  padding: 0 10px;
+  height: 42px;
+  line-height: 40px;
 }
 
 /* jumbotrom */
 .jumbotrom .logo{
+  
   height: 180px;
   line-height: 180px;
+}
+
+.jumbotrom .logo .avatar {
+  width: 10%;
+  min-width: 150px;
+  max-width: 180px;
+  min-height: 100%;
+  margin: auto;
 }
 
 /* main- section-1 */
 main .container .row.inf{
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: lightgoldenrodyellow;
 }
 
-main .container .row.img .img{  
-  height: 150px;
-  line-height: 150px;
+main .container .row.img img{  
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
   margin-bottom: 15px;
-  
-  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+  background-color: lightpink;
 }
 
 /* main- section-2 */
-section .row.about .col-xs-12 p{
-  padding: 20px 40px;
+section .row.about{
+  padding: 10px 100px;
+}
+section .row.about .col-xs-12{
+  padding-bottom: 20px;
+}
+
+section .row.about .col-xs-12 button{
+  color: white;
+  background-color: #1BBC9B;
+  border: white 1px solid;
 }
 
 /* main- section-3 */
 section .container .row.contact{
-  padding: 20px 50px;
+  padding: 20px 30px;
+  line-height: 50px;
 }
 
-section .container .row.contact .espacio{
-  height: 120px;
-  padding-top: 10px;
+section .container .row.contact .col-xs-12 input{
+  border: none;
+}
+section .container .row.contact .col-xs-12 textarea{
+  height: 100px;
+  border: none;
+
+}
+
+section .container .col-xs-12 button{
+  color: white;
+  background-color:#1BBC9B ;
+  border: white 1px solid;
 }
 
 /* footer- section-1 */
@@ -70,9 +108,11 @@ footer .container-fluid .social {
   padding: 30px 40px;
 }
 
-footer .container-fluid .social .row{
-  margin-bottom: 10px;
+footer .container-fluid .row.social .col-xs-12 i{
+  margin: 10px 10px;
+  border-radius: 10px;
 }
+
 
 /* footer- section-2 */
 footer .container-fluid .legal .col-xs-12{
