@@ -109,8 +109,10 @@ footer .container-fluid .social {
 }
 
 footer .container-fluid .row.social .col-xs-12 i{
-  margin: 10px 10px;
-  border-radius: 10px;
+  padding:10px;
+  margin: 10px 8px;
+  border-radius: 100px;
+  border: solid 1px white;
 }
 
 
